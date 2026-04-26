@@ -1,4 +1,5 @@
 br\ufscar\dc\dsw\AcessaBD.class
+br\ufscar\dc\dsw\controller\EditoraController.class
 br\ufscar\dc\dsw\domain\Editora.class
 br\ufscar\dc\dsw\controller\LivroController.class
 br\ufscar\dc\dsw\dao\LivroDAO.class
