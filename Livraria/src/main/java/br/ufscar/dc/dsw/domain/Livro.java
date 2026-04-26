@@ -75,4 +75,8 @@ public class Livro {
     public void setEditora(Editora editora) {
         this.editora = editora;
     }
+
+    public String getPrecoFormatado() {
+        return String.format(java.util.Locale.forLanguageTag("pt-BR"), "R$ %.2f", this.preco);
+    }
 }
